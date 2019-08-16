@@ -48,7 +48,7 @@ public class Dispatcher {
                     if (n <= floorQuant / 2) {
                         arr[i][j] = Util.random(floorQuant, n + 1);
                     } else {
-                        arr[i][j] = Util.random(n, 1);
+                        arr[i][j] = Util.random(n-1, 1);
                     }
                 }
             }
